@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightblue"
+    tools:context=".Main4Activity">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="162dp"
+        android:text="Maths"
+        android:textSize="30dp"
+
+
+        tools:text="Maths" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="32dp"
+        android:text="Attendance Manager"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="267dp"
+        android:layout_marginLeft="267dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="-130dp"
+        android:layout_marginRight="-130dp"
+        android:onClick="math"
+        android:text="Mark" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Physics"
+        android:textSize="30dp"
+
+        tools:text="Physics" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginLeft="269dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="-132dp"
+        android:layout_marginRight="-132dp"
+        android:onClick="physic"
+        android:text="Mark" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button13"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignEnd="@+id/button13"
+        android:layout_alignRight="@+id/button13"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginEnd="-232dp"
+        android:layout_marginRight="-232dp"
+        android:layout_marginBottom="35dp"
+        android:text="Feedback" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginBottom="34dp"
+
+        android:onClick="login"
+        android:text="Login" />
+
+
+</RelativeLayout>
